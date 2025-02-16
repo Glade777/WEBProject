@@ -13,6 +13,7 @@
 - **Адміністратор**  
 - **Зареєстрований користувач**  
 - **Гість**  
+! [image](https://github.com/Glade777/WEBProject/blob/main/Hierarchy.png)
 
 ## 4. Основні сутності
 -
