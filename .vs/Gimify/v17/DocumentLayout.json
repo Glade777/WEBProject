@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\VisualStudio\\csProj\\Gimify\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\masscalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\masscalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -150,11 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 31,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Privacy.cshtml",
@@ -166,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\_ViewStart.cshtml",
@@ -178,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\_ViewImports.cshtml",
@@ -190,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Gimify\\Models\\ErrorViewModel.cs",
@@ -202,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PostConfiguration.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\PostConfiguration.cs",
               "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\PostConfiguration.cs",
@@ -214,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "20250224050603_Exercises_Man.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224050603_Exercises_Man.cs",
               "RelativeDocumentMoniker": "Gimify\\Migrations\\20250224050603_Exercises_Man.cs",
@@ -226,7 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml.css",
@@ -238,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ManConfiguration.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ManConfiguration.cs",
               "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\ManConfiguration.cs",
@@ -250,7 +250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "EfcontextModelSnapshot.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\EfcontextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Gimify\\Migrations\\EfcontextModelSnapshot.cs",
@@ -262,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Create.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Create.cshtml",
@@ -274,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Index.cshtml",
@@ -286,20 +286,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Posts.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
               "RelativeDocumentMoniker": "Gimify\\Controllers\\Posts.cs",
               "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
               "RelativeToolTip": "Gimify\\Controllers\\Posts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T22:31:33.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "bootstrap.css",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -311,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "site.js",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Gimify\\wwwroot\\js\\site.js",
@@ -323,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "site.css",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Gimify\\wwwroot\\css\\site.css",
@@ -335,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ExercisesConfiguration.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
               "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
@@ -347,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml",
@@ -359,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20250224053304_Favourite.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224053304_Favourite.cs",
               "RelativeDocumentMoniker": "Gimify\\Migrations\\20250224053304_Favourite.cs",
@@ -371,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FavouriteConfiguration.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
               "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
@@ -383,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Favourite.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Favourite.cs",
               "RelativeDocumentMoniker": "Gimify\\Entities\\Favourite.cs",
@@ -395,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "20250224051203_User.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224051203_User.cs",
               "RelativeDocumentMoniker": "Gimify\\Migrations\\20250224051203_User.cs",
@@ -407,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\UserConfiguration.cs",
@@ -419,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Gimify\\Entities\\User.cs",
@@ -431,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Exercises_Man.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Exercises_Man.cs",
               "RelativeDocumentMoniker": "Gimify\\Entities\\Exercises_Man.cs",
@@ -443,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Gimify\\appsettings.Development.json",
@@ -455,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Gimify.csproj",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Gimify.csproj",
               "RelativeDocumentMoniker": "Gimify\\Gimify.csproj",
@@ -467,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Posts.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
               "RelativeDocumentMoniker": "Gimify\\Entities\\Posts.cs",
@@ -479,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Exercises.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Exercises.cs",
               "RelativeDocumentMoniker": "Gimify\\Entities\\Exercises.cs",
@@ -491,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.json",
               "RelativeDocumentMoniker": "Gimify\\appsettings.json",
@@ -503,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
               "RelativeDocumentMoniker": "Gimify\\Program.cs",
@@ -515,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Efcontext.cs",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Efcontext.cs",
               "RelativeDocumentMoniker": "Gimify\\DAL\\Efcontext.cs",
@@ -527,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 0,
               "Title": "Exercises.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Exercises.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Exercises.cshtml",
@@ -535,7 +535,8 @@
               "RelativeToolTip": "Gimify\\Views\\Home\\Exercises.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T19:37:48.487Z"
+              "WhenOpened": "2025-02-22T19:37:48.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
