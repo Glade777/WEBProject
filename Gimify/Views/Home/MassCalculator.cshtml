@@ -1,10 +1,50 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "MassCalculator";
 }
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <div>
-        <h1>Калькулятор норми БЖВ</h1>
-    </div>
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+    <h1>Калькулятор норми БЖВ</h1>
+
+    <form id="calculatorForm" onsubmit="calculateMacros(event)" style="display: flex; flex-direction: column; gap: 10px; width: 300px;">
+        <label for="weight">Вага (кг):</label>
+        <input type="number" id="weight" placeholder="Введіть вагу" inputmode="numeric" min="0">
+
+        <label for="height">Зріст (см):</label>
+        <input type="number" id="height" placeholder="Введіть зріст" inputmode="numeric" min="0">
+
+        <label for="activity">Рівень активності:</label>
+        <select id="activity" class="form-control">
+            <option value="1.2">Низький</option>
+            <option value="1.4">Середній</option>
+            <option value="1.6">Високий</option>
+        </select>
+
+        <button type="submit" class="btn btn-primary">Розрахувати</button>
+    </form>
+
+    <h2 id="result" style="margin-top: 20px;"></h2>
 </div>
 
+<script>
+    function calculateMacros(event) {
+        event.preventDefault(); // Запобігає перезавантаженню сторінки
+
+        let weight = parseFloat(document.getElementById("weight").value);
+        let height = parseFloat(document.getElementById("height").value);
+        let activity = parseFloat(document.getElementById("activity").value);
+
+        if (weight > 0 && height > 0) {
+            let proteins = (1.8 * weight).toFixed(1); // Білки: 1.8 г/кг
+            let fats = (0.9 * weight).toFixed(1); // Жири: 0.9 г/кг
+            let carbs = (3.5 * weight * activity).toFixed(1); // Вуглеводи залежать від активності
+
+            document.getElementById("result").innerHTML =
+                `Ваша добова норма:<br>
+                Білки: ${proteins} г<br>
+                Жири: ${fats} г<br>
+                Вуглеводи: ${carbs} г`;
+        } else {
+            document.getElementById("result").innerHTML = "Будь ласка, введіть коректні дані!";
+        }
+    }
+</script>

@@ -90,9 +90,6 @@ namespace Gimify.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
 
-                    b.Property<float>("CreatedAt")
-                        .HasColumnType("real");
-
                     b.Property<int>("UserId")
                         .HasColumnType("integer");
 
@@ -116,6 +113,10 @@ namespace Gimify.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Username")
                         .IsRequired()
