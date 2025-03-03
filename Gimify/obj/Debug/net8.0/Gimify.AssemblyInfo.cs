@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gimify")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e927b203417f9a933056619223d2c2d088a3fa3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gimify")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gimify")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

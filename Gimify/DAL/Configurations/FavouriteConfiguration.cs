@@ -8,8 +8,8 @@ namespace Gimify.DAL.Configurations
     {
         public void Configure(EntityTypeBuilder<Favourite> builder)
         {
-            builder.HasKey(x => x.id);
-
+            builder.HasKey(x => new { x.id, x.UserId });
+            
             builder.HasOne(x => x.Posts)
                 .WithMany(y => y.Favourite)
                 .HasForeignKey(x => x.Postsid)

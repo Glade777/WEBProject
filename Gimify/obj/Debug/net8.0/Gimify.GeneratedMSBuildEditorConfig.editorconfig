@@ -17,49 +17,69 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gimify
 build_property.RootNamespace = Gimify
-build_property.ProjectDir = D:\VisualStudio\csProj\Gimify\Gimify\
+build_property.ProjectDir = C:\Gimify\Gimify\Gimify\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\VisualStudio\csProj\Gimify\Gimify
+build_property.MSBuildProjectDirectory = C:\Gimify\Gimify\Gimify
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Home/Exercises.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Gimify/Gimify/Gimify/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Gimify/Gimify/Gimify/Views/Home/Exercises.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFeGVyY2lzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Home/Index.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Home/MassCalculator.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Home/MassCalculator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYXNzQ2FsY3VsYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Home/Privacy.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Shared/Error.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Posts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Gimify/Gimify/Gimify/Views/Posts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Gimify/Gimify/Gimify/Views/Posts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Gimify/Gimify/Gimify/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/_ViewImports.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/_ViewStart.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VisualStudio/csProj/Gimify/Gimify/Views/Shared/_Layout.cshtml]
+[C:/Gimify/Gimify/Gimify/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ukf1cf4fs3

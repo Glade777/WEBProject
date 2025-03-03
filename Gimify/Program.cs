@@ -1,10 +1,23 @@
 using Gimify.DAL;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Додати аутентифікацію та авторизацію
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login"; // Шлях до сторінки входу
+        options.AccessDeniedPath = "/Account/AccessDenied"; // Сторінка доступу заборонено
+    });
+
+builder.Services.AddAuthorization();
+
+// Додаємо підтримку контролерів та представлень
 builder.Services.AddControllersWithViews();
+
+// Налаштування бази даних
 builder.Services.AddDbContext<Efcontext>(options =>
 {
     options.UseNpgsql(builder.Configuration["ConnectionStrings"]);
@@ -12,23 +25,36 @@ builder.Services.AddDbContext<Efcontext>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+// Якщо середовище розробки, додаємо DeveloperExceptionPage
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+// Порядок викликів має бути наступним:
+app.UseRouting();  // Викликаємо маршрутизацію перед аутентифікацією та авторизацією
+app.UseAuthentication(); // Викликаємо аутентифікацію
+app.UseAuthorization();  // Потім авторизацію
 
-app.UseAuthorization();
+app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Posts}/{action=Index}/{id?}");
+
+// Якщо не середовище розробки, додамо HSTS
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
 
 app.Run();
