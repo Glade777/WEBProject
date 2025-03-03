@@ -8,9 +8,9 @@ namespace Gimify.Entities
         public int UserId { get; set; }
         public string name { get; set; }
         public string description { get; set; }
-      
-    
-        public List<Favourite> Favourite { get; set; }
+
+        public int FavouriteCount { get; set; } = 0;
+        public List<Favourite> Favourite { get; set; } = new List<Favourite>();
 
     }
 }

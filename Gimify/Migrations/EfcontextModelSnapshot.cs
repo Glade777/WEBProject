@@ -67,15 +67,15 @@ namespace Gimify.Migrations
             modelBuilder.Entity("Gimify.Entities.Favourite", b =>
                 {
                     b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
 
                     b.Property<int>("Postsid")
                         .HasColumnType("integer");
 
-                    b.HasKey("id");
+                    b.HasKey("id", "UserId");
 
                     b.HasIndex("Postsid");
 
@@ -89,6 +89,9 @@ namespace Gimify.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
+
+                    b.Property<int>("FavouriteCount")
+                        .HasColumnType("integer");
 
                     b.Property<int>("UserId")
                         .HasColumnType("integer");

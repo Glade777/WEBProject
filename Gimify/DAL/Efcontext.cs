@@ -11,6 +11,8 @@ namespace Gimify.DAL
         {    
         }
 
+
+
         public DbSet<Posts> Posts { get; set; }
         public DbSet<Exercises_Man> Exercises_Man { get; set; }
         public DbSet<Exercises> Exercises { get; set; }
@@ -25,6 +27,7 @@ namespace Gimify.DAL
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new FavouriteConfiguration());
             base.OnModelCreating(modelBuilder);
+            
         }
     }
 }
