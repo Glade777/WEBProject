@@ -1,0 +1,28 @@
+﻿@using System.Security.Claims
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Your Account</h1>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+            <div>
+                <p><strong>Username:</strong> @User.Identity.Name</p>
+            <p><strong>Role:</strong> @Context.User.FindFirst(ClaimTypes.Role)?.Value</p>
+
+
+            </div>
+    }
+    else
+    {
+            <p>You are not logged in.</p>
+        <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Login", "Account")'">Login</button>
+    }
+</body>
+</html>
