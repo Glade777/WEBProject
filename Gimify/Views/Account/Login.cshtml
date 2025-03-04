@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Login</h2>
+
+<form method="post">
+    <div>
+        <label for="username">Логін</label>
+        <input type="text" id="username" name="username" required />
+    </div>
+    <div>
+        <label for="password">Пароль</label>
+        <input type="password" id="password" name="password" required />
+    </div>
+    <div>
+        <button type="submit">Увійти</button>
+    </div>
+
+    @if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
+    {
+        <div style="color: red;">
+            @ViewData["ErrorMessage"]
+        </div>
+    }
+</form>
+<div style="margin-top: 10px;">
+    <button type="button" onclick="location.href='@Url.Action("Register", "Account")'">Зареєструватися</button>
+</div>
