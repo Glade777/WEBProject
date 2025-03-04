@@ -2,6 +2,19 @@
 
 namespace Gimify.Entities
 {
+
+    public class Admin : User
+    {
+        
+        
+        public string AdminUsername { get; private set; } 
+        public string AdminPassword { get; private set; } 
+
+    }
+
+
+
+
     public abstract class BaseEntity
     {
         
@@ -22,6 +35,7 @@ namespace Gimify.Entities
 
         [Required]
         public string Password { get; set; }
+        public string Role { get; set; } = "User";
 
         public override void setInfo(int newid)
         {

@@ -1,9 +1,21 @@
 ﻿namespace Gimify.Entities
 {
-    public class Favourite
+    public class Favourite : BaseEntity
     {
-        public int id { get; set; }
+        public override int id 
+            {
+            get 
+            {
+                return UserId;
+            }
+            set
+            {
+
+            }
+
+        }
         public Posts Posts { get; set; }
+        public int UserId { get; set; }
         public int Postsid { get; set; }
     }
 }
