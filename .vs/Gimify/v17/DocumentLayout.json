@@ -1,0 +1,582 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\csProj\\Gimify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\migrations\\20250224050603_exercises_man.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\migrations\\20250224050603_exercises_man.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\manconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\manconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\migrations\\efcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\migrations\\efcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\posts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\posts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\exercisesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\exercisesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\migrations\\20250224053304_favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\migrations\\20250224053304_favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\favouriteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\favouriteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\favourite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\migrations\\20250224051203_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\migrations\\20250224051203_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\exercises_man.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\exercises_man.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\gimify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\gimify.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\exercises.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\masscalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\masscalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 31,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T01:32:55.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T01:29:02.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T01:19:14.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Gimify\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Gimify\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:56:50.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostConfiguration.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\PostConfiguration.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\PostConfiguration.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\PostConfiguration.cs",
+              "RelativeToolTip": "Gimify\\DAL\\Configurations\\PostConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:43:49.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250224050603_Exercises_Man.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224050603_Exercises_Man.cs",
+              "RelativeDocumentMoniker": "Gimify\\Migrations\\20250224050603_Exercises_Man.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224050603_Exercises_Man.cs",
+              "RelativeToolTip": "Gimify\\Migrations\\20250224050603_Exercises_Man.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T00:29:47.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Gimify\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-02T00:27:02.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ManConfiguration.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ManConfiguration.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\ManConfiguration.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ManConfiguration.cs",
+              "RelativeToolTip": "Gimify\\DAL\\Configurations\\ManConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T23:46:41.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EfcontextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\EfcontextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Gimify\\Migrations\\EfcontextModelSnapshot.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\EfcontextModelSnapshot.cs",
+              "RelativeToolTip": "Gimify\\Migrations\\EfcontextModelSnapshot.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAF0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T23:42:31.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Create.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Create.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Create.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Posts\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T23:03:41.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Posts\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T22:37:50.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
+              "RelativeDocumentMoniker": "Gimify\\Controllers\\Posts.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
+              "RelativeToolTip": "Gimify\\Controllers\\Posts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T22:31:33.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-01T22:18:35.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "Gimify\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "Gimify\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-01T22:18:23.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Gimify\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Gimify\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-01T22:18:18.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExercisesConfiguration.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
+              "RelativeToolTip": "Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:37:01.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T05:51:40.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250224053304_Favourite.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224053304_Favourite.cs",
+              "RelativeDocumentMoniker": "Gimify\\Migrations\\20250224053304_Favourite.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224053304_Favourite.cs",
+              "RelativeToolTip": "Gimify\\Migrations\\20250224053304_Favourite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:33:04.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FavouriteConfiguration.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
+              "RelativeToolTip": "Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:21:17.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Favourite.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Favourite.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\Favourite.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Favourite.cs",
+              "RelativeToolTip": "Gimify\\Entities\\Favourite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:18:39.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250224051203_User.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224051203_User.cs",
+              "RelativeDocumentMoniker": "Gimify\\Migrations\\20250224051203_User.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Migrations\\20250224051203_User.cs",
+              "RelativeToolTip": "Gimify\\Migrations\\20250224051203_User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:12:03.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Gimify\\DAL\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:09:45.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\User.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
+              "RelativeToolTip": "Gimify\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:08:53.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Exercises_Man.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Exercises_Man.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\Exercises_Man.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Exercises_Man.cs",
+              "RelativeToolTip": "Gimify\\Entities\\Exercises_Man.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T04:04:45.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Gimify\\appsettings.Development.json",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.Development.json",
+              "RelativeToolTip": "Gimify\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T02:56:18.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Gimify.csproj",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Gimify.csproj",
+              "RelativeDocumentMoniker": "Gimify\\Gimify.csproj",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Gimify.csproj",
+              "RelativeToolTip": "Gimify\\Gimify.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-24T02:09:26.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\Posts.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
+              "RelativeToolTip": "Gimify\\Entities\\Posts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T00:56:15.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Exercises.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Exercises.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\Exercises.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Exercises.cs",
+              "RelativeToolTip": "Gimify\\Entities\\Exercises.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T00:55:34.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.json",
+              "RelativeDocumentMoniker": "Gimify\\appsettings.json",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.json",
+              "RelativeToolTip": "Gimify\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-24T00:46:13.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
+              "RelativeDocumentMoniker": "Gimify\\Program.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
+              "RelativeToolTip": "Gimify\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T00:44:27.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Efcontext.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Efcontext.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\Efcontext.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Efcontext.cs",
+              "RelativeToolTip": "Gimify\\DAL\\Efcontext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T00:40:43.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Exercises.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Exercises.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Exercises.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Exercises.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Home\\Exercises.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T19:37:48.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MassCalculator.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\MassCalculator.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Home\\MassCalculator.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\MassCalculator.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Home\\MassCalculator.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T19:35:25.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Gimify\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Gimify\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:33:14.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T19:28:53.311Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

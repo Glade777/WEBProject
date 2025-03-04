@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Gimify.Entities.Posts>
+
+	<h2>Posts</h2>
+
+	<div class="container">
+		<table class="table table-bordered">
+			<thead class="tabel-light">
+				<tr>
+					<th>Name</th>
+					<th>Description</th>
+					<th>UserId</th>
+					<th>Actions</th>
+					
+				</tr>
+
+
+			</thead>
+			<tbody>
+				@foreach(var item in Model)
+				{
+					<tr>
+						<td>@item.name</td>
+						<td>@item.description</td>
+						<td>@item.UserId</td>
+					<td>
+						<!-- Кнопка для видалення поста -->
+						<form method="post" action="@Url.Action("Delete", "Posts", new { id = item.id })" style="display:inline;">
+							<button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this post?');">Delete</button>
+						</form>
+
+					</td>
+					</tr>
+				}
+
+			</tbody>
+		</table>
+	<div>
+		<button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Create", "Posts")'">Create Post</button>
+	</div>
+	</div>
+

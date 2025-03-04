@@ -11,7 +11,7 @@ namespace Gimify.DAL
         {    
         }
 
-        public DbSet<Entities.PostsMaker> Posts { get; set; }
+        public DbSet<Posts> Posts { get; set; }
         public DbSet<Exercises_Man> Exercises_Man { get; set; }
         public DbSet<Exercises> Exercises { get; set; }
         public DbSet<User> User { get; set; }
