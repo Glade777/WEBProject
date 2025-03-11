@@ -23,8 +23,7 @@ namespace Gimify.DAL.Repositories
             return posts;
         }
 
-
-        
+   
         public async Task AddPostAsync(Posts post)
         {
             await _context.Posts.AddAsync(post);
