@@ -14,7 +14,6 @@ namespace Gimify.DAL.Repositories
             _context = context;
         }
 
-
         public async Task<List<Posts>> GetPostsSortedByFavouriteCountAsync()
         {
             var posts = await _context.Posts
