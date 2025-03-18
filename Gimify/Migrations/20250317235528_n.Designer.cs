@@ -2,6 +2,7 @@
 using Gimify.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Gimify.Migrations
 {
     [DbContext(typeof(Efcontext))]
-    partial class EfcontextModelSnapshot : ModelSnapshot
+    [Migration("20250317235528_n")]
+    partial class n
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,18 +27,15 @@ namespace Gimify.Migrations
             modelBuilder.Entity("Gimify.Entities.Favourite", b =>
                 {
                     b.Property<int>("id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("id"));
-
-                    b.Property<int>("Postsid")
                         .HasColumnType("integer");
 
                     b.Property<int>("UserId")
                         .HasColumnType("integer");
 
-                    b.HasKey("id");
+                    b.Property<int>("Postsid")
+                        .HasColumnType("integer");
+
+                    b.HasKey("id", "UserId");
 
                     b.HasIndex("Postsid");
 
@@ -65,8 +65,6 @@ namespace Gimify.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
                 });
@@ -104,6 +102,7 @@ namespace Gimify.Migrations
                     b.HasOne("Gimify.Entities.Posts", "Posts")
                         .WithMany("Favourite")
                         .HasForeignKey("Postsid")
+                        .HasPrincipalKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
