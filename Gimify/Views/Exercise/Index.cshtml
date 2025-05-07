@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Gimify.Entities.Posts>
+
+@{
+    ViewData["Title"] = "Exercise Posts";
+    bool isAdmin = User.IsInRole("Admin");
+}
+
+<h2>Exercise Posts</h2>
+
+@if (isAdmin)
+{
+        <a class="btn btn-primary mb-3" asp-controller="Exercise" asp-action="Create">Add New Post</a>
+}
+
+@foreach (var post in Model)
+{
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">@post.name</h5>
+                <p class="card-text">@post.description</p>
+
+            
+
+
+                <a asp-action="Details" asp-route-id="@post.id" class="btn btn-sm btn-info mt-2">Details</a>
+            </div>
+        </div>
+}

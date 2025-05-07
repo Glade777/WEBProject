@@ -27,16 +27,16 @@
 
 <script>
     function calculateMacros(event) {
-        event.preventDefault(); // Запобігає перезавантаженню сторінки
+        event.preventDefault(); 
 
         let weight = parseFloat(document.getElementById("weight").value);
         let height = parseFloat(document.getElementById("height").value);
         let activity = parseFloat(document.getElementById("activity").value);
 
         if (weight > 0 && height > 0) {
-            let proteins = (1.8 * weight).toFixed(1); // Білки: 1.8 г/кг
-            let fats = (0.9 * weight).toFixed(1); // Жири: 0.9 г/кг
-            let carbs = (3.5 * weight * activity).toFixed(1); // Вуглеводи залежать від активності
+            let proteins = (1.8 * weight).toFixed(1); 
+            let fats = (0.9 * weight).toFixed(1); 
+            let carbs = (3.5 * weight * activity).toFixed(1); 
 
             document.getElementById("result").innerHTML =
                 `Ваша добова норма:<br>

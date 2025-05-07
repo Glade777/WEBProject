@@ -1,4 +1,4 @@
-﻿using Gimify.Entities;
+﻿/*using Gimify.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -23,3 +23,4 @@ namespace Gimify.DAL.Configurations
         }
     }
 }
+*/

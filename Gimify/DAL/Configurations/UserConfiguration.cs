@@ -1,4 +1,4 @@
-﻿using Gimify.Entities;
+﻿/* using Gimify.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -9,8 +9,21 @@ namespace Gimify.DAL.Configurations
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.HasKey(x => x.id);
-            builder.Property(p => p.Username);
-            builder.Property(p => p.Password);
+
+            builder.Property(p => p.Username)
+                .IsRequired();
+
+            builder.Property(p => p.Role);
+
+            builder.Property(p => p.Password)
+                .IsRequired();
+
+            builder.Property(p => p.FavouriteCount);
+
+
+         
+
+
         }
     }
-}
+}*/

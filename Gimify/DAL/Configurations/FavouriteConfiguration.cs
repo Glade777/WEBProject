@@ -16,4 +16,5 @@ namespace Gimify.DAL.Configurations
                 .HasPrincipalKey(x => x.id);
         }
     }
+
 }

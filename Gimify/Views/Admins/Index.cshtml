@@ -1,0 +1,36 @@
+﻿@model List<Gimify.Entities.Admin>
+
+@{
+    ViewData["Title"] = "Admin List";
+}
+
+<h2>Список адміністраторів</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Admin Username</th>
+            <th>Role</th>
+            <th>Дії</th> <!-- Додано стовпець для дій -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var admin in Model)
+        {
+            <tr>
+                <td>@admin.id</td>
+                <td>@admin.AdminUsername</td>
+                <td>@admin.Role</td>
+                <td>
+                    <!-- Форма для видалення адміністратора -->
+                    <form method="post" action="/Admins/Delete/@admin.id" onsubmit="return confirm('Ви впевнені, що хочете видалити цього адміністратора?');">
+                        <button type="submit" class="btn btn-danger">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" href="/Admins/Create">Додати нового адміністратора</a>

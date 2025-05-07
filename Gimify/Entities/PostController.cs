@@ -1,4 +1,4 @@
-﻿using Gimify.Entities;
+﻿/*using Gimify.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -24,4 +24,4 @@ namespace Gimify.DAL.Repositories
         }
 
     }
-}
+}*/

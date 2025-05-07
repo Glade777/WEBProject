@@ -4,27 +4,176 @@
     ViewData["Title"] = "Register";
 }
 
-<h2>@ViewData["Title"]</h2>
-
-<form method="post">
-    <div class="form-group">
-        <label for="username">Username</label>
-        <input type="text" name="username" id="username" class="form-control" required />
+<div class="reddit-auth-container">
+    <div class="reddit-auth-header">
+        <h1 class="reddit-logo">Gimify</h1>
+        <p class="reddit-auth-subtitle">Створіть новий обліковий запис</p>
     </div>
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" class="form-control" required />
-    </div>
-    <button type="submit" class="btn btn-primary">Register</button>
-</form>
 
-<!-- Display Model Validation Errors -->
-@if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
-{
-    <div class="alert alert-danger mt-3">
-        @ViewData["ErrorMessage"]
-    </div>
-}
+    <div class="reddit-auth-card">
+        <form method="post" class="reddit-auth-form">
+            <div class="reddit-form-group">
+                <label for="username" class="reddit-form-label">ІМ'Я КОРИСТУВАЧА</label>
+                <input type="text" name="username" id="username" class="reddit-form-input" required />
+                @Html.ValidationMessageFor(m => m.Username, "", new { @class = "reddit-validation-error" })
+            </div>
 
-<!-- Show ModelState Validation Errors -->
-@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="reddit-form-group">
+                <label for="password" class="reddit-form-label">ПАРОЛЬ</label>
+                <input type="password" name="password" id="password" class="reddit-form-input" required />
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "reddit-validation-error" })
+            </div>
+
+            <button type="submit" class="reddit-auth-button">ЗАРЕЄСТРУВАТИСЬ</button>
+
+            @if (!string.IsNullOrEmpty(ViewData["ErrorMessage"]?.ToString()))
+            {
+                <div class="reddit-auth-error">
+                    @ViewData["ErrorMessage"]
+                </div>
+            }
+
+            @Html.ValidationSummary(true, "", new { @class = "reddit-validation-summary" })
+        </form>
+
+        <div class="reddit-auth-footer">
+            <p class="reddit-auth-footer-text">Вже маєте акаунт? <a href="@Url.Action("Login", "Account")" class="reddit-auth-footer-link">Увійти</a></p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .reddit-auth-container {
+        max-width: 400px;
+        margin: 40px auto;
+        font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    .reddit-auth-header {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .reddit-logo {
+        color: #FF4500;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .reddit-auth-subtitle {
+        color: #787c7e;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .reddit-auth-card {
+        background-color: white;
+        border-radius: 4px;
+        padding: 24px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .reddit-auth-form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .reddit-form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .reddit-form-label {
+        font-size: 12px;
+        font-weight: bold;
+        color: #1A1A1B;
+        text-transform: uppercase;
+    }
+
+    .reddit-form-input {
+        padding: 12px;
+        border: 1px solid #EDEFF1;
+        border-radius: 4px;
+        background-color: #F6F7F8;
+        font-size: 14px;
+    }
+
+        .reddit-form-input:focus {
+            outline: none;
+            border-color: #0079D3;
+            background-color: white;
+        }
+
+    .reddit-auth-button {
+        background-color: #FF4500;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 12px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        margin-top: 8px;
+    }
+
+        .reddit-auth-button:hover {
+            background-color: #FF5714;
+        }
+
+    .reddit-auth-error {
+        color: #FF4500;
+        font-size: 14px;
+        margin-top: 8px;
+        padding: 8px;
+        background-color: #FFF8E6;
+        border-radius: 4px;
+    }
+
+    .reddit-validation-error {
+        color: #FF4500;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .reddit-validation-summary {
+        color: #FF4500;
+        font-size: 14px;
+        margin-top: 8px;
+        padding: 8px;
+        background-color: #FFF8E6;
+        border-radius: 4px;
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        .reddit-validation-summary ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+    .reddit-auth-footer {
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid #EDEFF1;
+        text-align: center;
+    }
+
+    .reddit-auth-footer-text {
+        color: #787c7e;
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .reddit-auth-footer-link {
+        color: #0079D3;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .reddit-auth-footer-link:hover {
+            text-decoration: underline;
+        }
+</style>

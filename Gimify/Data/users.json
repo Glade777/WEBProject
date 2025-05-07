@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "Username": "\u043A",
+    "Password": "$2a$11$KgXaQXQIArpwaP2StJjrEOe.NdJGoMEeo.wL92Y0wxwGUEPQw9UzO",
+    "Role": "User"
+  },
+  {
+    "id": 2,
+    "Username": "admin2",
+    "Password": "$2a$11$1bhMkmdDn8HzUrbcNfXaWODPY5bx5j/h385RVuFtZES63Wz64iA1e",
+    "Role": "User"
+  },
+  {
+    "id": 3,
+    "Username": "Prikol",
+    "Password": "$2a$11$5gkUiywUzikPJX6.FJCy..J.iEco99xO9o1P2joi2DCcqNN6CKU9S",
+    "Role": "User"
+  }
+]

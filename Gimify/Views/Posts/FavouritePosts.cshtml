@@ -1,0 +1,64 @@
+﻿@using System.Security.Claims
+@model IEnumerable<Gimify.Entities.Posts>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Posts</title>
+</head>
+<body>
+    <h1>Your Favourite Posts</h1>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <div>
+            <p><strong>Username:</strong> @User.Identity.Name</p>
+            <p><strong>Role:</strong> @Context.User.FindFirst(ClaimTypes.Role)?.Value</p>
+        </div>
+    }
+    else
+    {
+        <p>You are not logged in.</p>
+        <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Login", "Account")'">Login</button>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="mt-3">
+            <table class="table table-bordered">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var post in Model)
+                    {
+                        <tr>
+                            <td>@post.name</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(post.description))
+                                {
+                                    @(post.description.Length > 50 ? post.description.Substring(0, 50) + "..." : post.description)
+                                }
+                                <a asp-controller="Posts" asp-action="Details" asp-route-id="@post.id">Read more</a>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Details", "Posts", new { id = post.id })" class="btn btn-info">View</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <p>You don't have any favourite posts yet.</p>
+    }
+</body>
+</html>

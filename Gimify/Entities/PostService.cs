@@ -14,6 +14,18 @@ namespace Gimify.BLL.Services
         List<Posts> GetAllPosts();
         void ToggleFavourite(int postId, int userId);
         List<Posts> GetFavouritePosts(int userId);
+        List<Posts> GetAllPostsWithUsernames();
+
+        Task CreatePostAsync(Posts post);
+        Task UpdatePostAsync(Posts post);
+        Task DeletePostAsync(int id);
+        Task<Posts?> GetByIdAsync(int id);
+        Task<List<Posts>> GetAllPostsAsync();
+        Task ToggleFavouriteAsync(int postId, int userId);
+        Task<List<Posts>> GetFavouritePostsAsync(int userId);
+        Task<List<Posts>> GetAllPostsWithUsernamesAsync();
+
+        
         List<ValidationResult> ValidateEntity<T>(T entity) where T : class;
         bool IsValid<T>(T entity) where T : class;
     }
@@ -22,117 +34,140 @@ namespace Gimify.BLL.Services
     {
         private readonly Repository<Posts> _postRepository;
         private readonly Repository<Favourite> _favouriteRepository;
+        private readonly Repository<User> _userRepository;
 
-        public PostService(Repository<Posts> postRepository, Repository<Favourite> favouriteRepository)
+        public PostService(
+            Repository<Posts> postRepository,
+            Repository<Favourite> favouriteRepository,
+            Repository<User> userRepository)
         {
             _postRepository = postRepository;
             _favouriteRepository = favouriteRepository;
+            _userRepository = userRepository;
         }
 
-        public void CreatePost(Posts post)
+ 
+        public void CreatePost(Posts post) => CreatePostAsync(post).Wait();
+        public void UpdatePost(Posts post) => UpdatePostAsync(post).Wait();
+        public void DeletePost(int id) => DeletePostAsync(id).Wait();
+        public Posts? GetById(int id) => GetByIdAsync(id).Result;
+        public List<Posts> GetAllPosts() => GetAllPostsAsync().Result;
+        public void ToggleFavourite(int postId, int userId) => ToggleFavouriteAsync(postId, userId).Wait();
+        public List<Posts> GetFavouritePosts(int userId) => GetFavouritePostsAsync(userId).Result;
+        public List<Posts> GetAllPostsWithUsernames() => GetAllPostsWithUsernamesAsync().Result;
+
+        public async Task CreatePostAsync(Posts post)
         {
-            
             ValidatePost(post);
 
-            // унік. поста
-            if (_postRepository.GetAll().Any(p => p.name == post.name))
+            var allPosts = await _postRepository.GetAllAsync();
+            if (allPosts.Any(p => p.name == post.name))
             {
-                throw new ValidationException("A post with this name already exists.");
+                throw new ValidationException("Post with this name already exists.");
             }
 
-            _postRepository.Add(post);
+            await _postRepository.AddAsync(post);
         }
 
-        public void UpdatePost(Posts post)
+        public async Task UpdatePostAsync(Posts post)
         {
             ValidatePost(post);
 
-            var existingPost = _postRepository.GetById(post.id);
+            var existingPost = await _postRepository.GetByIdAsync(post.id);
             if (existingPost == null)
-            {
                 throw new ValidationException("Post does not exist.");
-            }
 
             if (existingPost.UserId != post.UserId)
-            {
-                throw new ValidationException("You do not have permission to edit this post.");
-            }
+                throw new ValidationException("You don't have permission to edit this post.");
 
-            _postRepository.Update(post);
+            await _postRepository.UpdateAsync(post);
         }
 
-        public void DeletePost(int id)
+        public async Task DeletePostAsync(int id)
         {
-            var post = _postRepository.GetById(id);
+            var post = await _postRepository.GetByIdAsync(id);
             if (post == null)
-            {
                 throw new ValidationException("Post does not exist.");
-            }
 
-            _postRepository.Delete(id);
+            await _postRepository.DeleteAsync(id);
         }
 
-        public Posts? GetById(int id) => _postRepository.GetById(id);
+        public async Task<Posts?> GetByIdAsync(int id)
+            => await _postRepository.GetByIdAsync(id);
 
-        public List<Posts> GetAllPosts() => _postRepository.GetAll();
+        public async Task<List<Posts>> GetAllPostsAsync()
+            => await _postRepository.GetAllAsync();
 
-        public void ToggleFavourite(int postId, int userId)
+        public async Task<List<Posts>> GetAllPostsWithUsernamesAsync()
         {
-            var post = _postRepository.GetById(postId);
-            if (post == null)
-            {
-                throw new ValidationException("Post does not exist.");
-            }
+            var posts = await _postRepository.GetAllAsync();
+            var users = await _userRepository.GetAllAsync();
 
-            var existingFavourite = _favouriteRepository.GetAll()
+            return posts.Select(post =>
+            {
+                post.AuthorUsername = users.FirstOrDefault(u => u.id == post.UserId)?.Username ?? "deleted user";
+                return post;
+            }).ToList();
+        }
+
+        public async Task ToggleFavouriteAsync(int postId, int userId)
+        {
+            var post = await _postRepository.GetByIdAsync(postId);
+            if (post == null)
+                throw new ValidationException("Post does not exist.");
+
+            var allFavourites = await _favouriteRepository.GetAllAsync();
+            var existingFavourite = allFavourites
                 .FirstOrDefault(f => f.Postsid == postId && f.UserId == userId);
 
             if (existingFavourite != null)
             {
-                _favouriteRepository.Delete(existingFavourite.id);
+                await _favouriteRepository.DeleteAsync(existingFavourite.id);
                 post.FavouriteCount = Math.Max(0, post.FavouriteCount - 1);
             }
             else
             {
-                var newFavourite = new Favourite
+                await _favouriteRepository.AddAsync(new Favourite
                 {
                     Postsid = postId,
                     UserId = userId
-                };
-                _favouriteRepository.Add(newFavourite);
+                });
                 post.FavouriteCount++;
             }
 
-            _postRepository.Update(post);
+            await _postRepository.UpdateAsync(post);
         }
 
-        public List<Posts> GetFavouritePosts(int userId)
+        public async Task<List<Posts>> GetFavouritePostsAsync(int userId)
         {
-            return _favouriteRepository.GetAll()
-                .Where(f => f.UserId == userId)
-                .Select(f => _postRepository.GetById(f.Postsid))
-                .Where(post => post != null)
-                .ToList();
+            var allFavourites = await _favouriteRepository.GetAllAsync();
+            var favouritePosts = new List<Posts>();
+
+            foreach (var fav in allFavourites.Where(f => f.UserId == userId))
+            {
+                var post = await _postRepository.GetByIdAsync(fav.Postsid);
+                if (post != null) favouritePosts.Add(post);
+            }
+
+            return favouritePosts;
         }
 
         public List<ValidationResult> ValidateEntity<T>(T entity) where T : class
         {
             var context = new ValidationContext(entity);
             var results = new List<ValidationResult>();
-            Validator.TryValidateObject(entity, context, results, validateAllProperties: true);
+            Validator.TryValidateObject(entity, context, results, true);
             return results;
         }
 
-        public bool IsValid<T>(T entity) where T : class => ValidateEntity(entity).Count == 0;
+        public bool IsValid<T>(T entity) where T : class
+            => ValidateEntity(entity).Count == 0;
 
         private void ValidatePost(Posts post)
         {
-            var validationResults = ValidateEntity(post);
-            if (validationResults.Count > 0)
-            {
-                var messages = validationResults.Select(r => r.ErrorMessage);
-                throw new ValidationException("Validation failed: " + string.Join("; ", messages));
-            }
+            var errors = ValidateEntity(post);
+            if (errors.Any())
+                throw new ValidationException(string.Join("; ", errors.Select(e => e.ErrorMessage)));
         }
     }
 }

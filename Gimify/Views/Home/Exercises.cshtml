@@ -1,11 +1,41 @@
-﻿
+﻿@model IEnumerable<Gimify.Entities.Posts>
 @{
     ViewData["Title"] = "Exercises";
 }
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <div>
-        <h1>Exercises</h1>
-    </div>
-</div>
 
+<h2>Exercises</h2>
 
+@if (Model == null || !Model.Any())
+{
+    <p>Немає постів для перегляду.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in Model)
+            {
+                <tr>
+                    <td>@post.name</td>
+                    <td>@post.description</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Exercise", new { id = post.id })">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<!-- Кнопка для додавання поста (тільки для адміністраторів) -->
+@if (User.IsInRole("Admin"))
+{
+    <a href="@Url.Action("Create", "Exercise")" class="btn btn-primary">Add New Post</a>
+}

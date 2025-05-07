@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using Gimify.Entities;
+using System.Threading.Tasks;
 
 namespace Gimify.DAL
 {
@@ -26,16 +27,23 @@ namespace Gimify.DAL
             return JsonSerializer.Deserialize<List<T>>(json) ?? new List<T>();
         }
 
+        private async Task<List<T>> LoadFromFileAsync()
+        {
+            if (!File.Exists(_filePath))
+                return new List<T>();
+
+            await using var fs = new FileStream(_filePath, FileMode.Open);
+            return await JsonSerializer.DeserializeAsync<List<T>>(fs) ?? new List<T>();
+        }
+
+        public List<T> GetAll() => _items;
+
         public void Add(T entity)
         {
-            _items = GetAll();
-
             if (entity.id == 0)
             {
-                int nextId = _items.Any() ? _items.Max(e => e.id) + 1 : 1;
-                entity.id = nextId;
+                entity.id = _items.Any() ? _items.Max(e => e.id) + 1 : 1;
             }
-
             _items.Add(entity);
             Save();
         }
@@ -45,8 +53,8 @@ namespace Gimify.DAL
             var index = _items.FindIndex(e => e.id == entity.id);
             if (index >= 0)
             {
-                _items[index] = entity; 
-                Save(); 
+                _items[index] = entity;
+                Save();
             }
         }
 
@@ -55,25 +63,70 @@ namespace Gimify.DAL
             var item = _items.FirstOrDefault(e => e.id == id);
             if (item != null)
             {
-                _items.Remove(item); 
-                Save(); 
+                _items.Remove(item);
+                Save();
             }
         }
 
-        public T? GetById(int id)
-        {
-            return _items.FirstOrDefault(e => e.id == id);
-        }
-
-        public List<T> GetAll()
-        {
-            return _items; 
-        }
+        public T? GetById(int id) => _items.FirstOrDefault(e => e.id == id);
 
         public void Save()
         {
             var json = JsonSerializer.Serialize(_items, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(_filePath, json); 
+            File.WriteAllText(_filePath, json);
+        }
+
+        public async Task<List<T>> GetAllAsync()
+        {
+            _items = await LoadFromFileAsync();
+            return _items;
+        }
+
+        public async Task AddAsync(T entity)
+        {
+            if (entity.id == 0)
+            {
+                var items = await GetAllAsync();
+                entity.id = items.Any() ? items.Max(e => e.id) + 1 : 1;
+            }
+            _items.Add(entity);
+            await SaveAsync();
+        }
+
+        public async Task UpdateAsync(T entity)
+        {
+            var items = await GetAllAsync();
+            var index = items.FindIndex(e => e.id == entity.id);
+            if (index >= 0)
+            {
+                items[index] = entity;
+                _items = items;
+                await SaveAsync();
+            }
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var items = await GetAllAsync();
+            var item = items.FirstOrDefault(e => e.id == id);
+            if (item != null)
+            {
+                items.Remove(item);
+                _items = items;
+                await SaveAsync();
+            }
+        }
+
+        public async Task<T?> GetByIdAsync(int id)
+        {
+            var items = await GetAllAsync();
+            return items.FirstOrDefault(e => e.id == id);
+        }
+
+        public async Task SaveAsync()
+        {
+            await using var fs = new FileStream(_filePath, FileMode.Create);
+            await JsonSerializer.SerializeAsync(fs, _items, new JsonSerializerOptions { WriteIndented = true });
         }
     }
 }

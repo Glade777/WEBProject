@@ -1,62 +1,28 @@
 ﻿using Gimify.Entities;
-using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
 namespace Gimify.DAL.Repositories
 {
-    public class PostRepository
+    public class Repository<T> where T : BaseEntity
     {
-        private readonly Efcontext _context;
+        private readonly IDataStorage<T> _storage;
 
-        public PostRepository(Efcontext context)
+        public Repository(IDataStorage<T> storage)
         {
-            _context = context;
+            _storage = storage;
         }
 
-        public async Task<List<Posts>> GetPostsSortedByFavouriteCountAsync()
-        {
-            var posts = await _context.Posts
-                                       .OrderByDescending(p => p.FavouriteCount)  
-                                       .ToListAsync();
+        public List<T> GetAll() => _storage.GetAll();
+        public void Add(T entity) => _storage.Add(entity);
+        public void Update(T entity) => _storage.Update(entity);
+        public void Delete(int id) => _storage.Delete(id);
+        public T? GetById(int id) => _storage.GetById(id);
 
-            return posts;
-        }
-
-   
-        public async Task AddPostAsync(Posts post)
-        {
-            await _context.Posts.AddAsync(post);
-            await _context.SaveChangesAsync();
-        }
-
-        
-        public async Task<List<Posts>> GetAllPostsAsync()
-        {
-            return await _context.Posts.ToListAsync();
-        }
-
-        public async Task<Posts?> GetPostByIdAsync(int id)
-        {
-            return await _context.Posts.FindAsync(id);
-        }
-
-        
-        public async Task UpdatePostAsync(Posts post)
-        {
-            _context.Posts.Update(post);
-            await _context.SaveChangesAsync();
-        }
-
-        
-        public async Task DeletePostAsync(int id)
-        {
-            var post = await _context.Posts.FindAsync(id);
-            if (post != null)
-            {
-                _context.Posts.Remove(post);
-                await _context.SaveChangesAsync();
-            }
-        }
+        public async Task<List<T>> GetAllAsync() => await _storage.GetAllAsync();
+        public async Task AddAsync(T entity) => await _storage.AddAsync(entity);
+        public async Task UpdateAsync(T entity) => await _storage.UpdateAsync(entity);
+        public async Task DeleteAsync(int id) => await _storage.DeleteAsync(id);
+        public async Task<T?> GetByIdAsync(int id) => await _storage.GetByIdAsync(id);
     }
 }

@@ -1,41 +1,296 @@
-﻿@model IEnumerable<Gimify.Entities.Posts>
+﻿@using System.Security.Claims
+@model IEnumerable<Gimify.Entities.Posts>
 
-	<h2>Posts</h2>
+<div class="reddit-style">
+    <div class="header">
+        <h1 class="logo">Gimify</h1>
+        <div class="auth-buttons">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <button type="button" class="btn btn-reddit" onclick="location.href='@Url.Action("Logout", "Account")'">Logout</button>
+            }
+            else
+            {
+                <button type="button" class="btn btn-reddit" onclick="location.href='@Url.Action("Login", "Account")'">Login</button>
+            }
+        </div>
+    </div>
 
-	<div class="container">
-		<table class="table table-bordered">
-			<thead class="tabel-light">
-				<tr>
-					<th>Name</th>
-					<th>Description</th>
-					<th>UserId</th>
-					<th>Actions</th>
-					
-				</tr>
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-reddit">
+            @TempData["Error"]
+        </div>
+    }
 
+    <div class="content">
+        <div class="sorting-options">
+            <span>Sort by:</span>
+            <a href="@Url.Action("Index", new { sortOrder = ViewData["DateSortParam"] })"
+               class="sort-btn @(Context.Request.Query["sortOrder"].ToString() == "date_desc" ? "active" : "")">
+                Newest
+            </a>
+            <a href="@Url.Action("Index", new { sortOrder = ViewData["PopularitySortParam"] })"
+               class="sort-btn @(Context.Request.Query["sortOrder"].ToString() == "popularity_desc" ? "active" : "")">
+                Top
+            </a>
+        </div>
 
-			</thead>
-			<tbody>
-				@foreach(var item in Model)
-				{
-					<tr>
-						<td>@item.name</td>
-						<td>@item.description</td>
-						<td>@item.UserId</td>
-					<td>
-						<!-- Кнопка для видалення поста -->
-						<form method="post" action="@Url.Action("Delete", "Posts", new { id = item.id })" style="display:inline;">
-							<button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this post?');">Delete</button>
-						</form>
+        <div class="create-post">
+            <a asp-action="Create" class="btn btn-create-post">Create Post</a>
+        </div>
 
-					</td>
-					</tr>
-				}
+        <div class="posts-container">
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="post">
+                        <div class="vote">
+                            @{
+                                var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+                                var isFavorited = userIdClaim != null &&
+                                item.Favourite?.Any(f => f.UserId.ToString() == userIdClaim.Value) == true;
+                            }
+                            <form method="post" action="@Url.Action("Favourite", "Posts", new { id = item.id })" style="display:inline;">
+                                <button type="submit" class="vote-btn @(isFavorited ? "upvoted" : "")">
+                                    <span class="arrow">▲</span>
+                                </button>
+                            </form>
+                            <div class="score">@item.FavouriteCount</div>
+                        </div>
 
-			</tbody>
-		</table>
-	<div>
-		<button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Create", "Posts")'">Create Post</button>
-	</div>
-	</div>
+                        <div class="post-content">
+                            <div class="post-header">
+                                <span class="post-title">@item.name</span>
+                                <span class="post-meta">Posted by user @item.AuthorUsername • @item.CreatedAt.ToString("g")</span>
+                            </div>
+                            
+                            <div class="post-actions">
+                                <a asp-controller="Posts" asp-action="Details" asp-route-id="@item.id" class="action-btn">Read</a>
 
+                                @{
+                                    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                                    var isAuthor = item.UserId.ToString() == currentUserId;
+                                    var isAdmin = User.IsInRole("Admin");
+                                }
+
+                                @if (isAuthor || isAdmin)
+                                {
+                                    <a href="@Url.Action("Edit", "Posts", new { id = item.id })" class="action-btn">Edit</a>
+                                    <form method="post" action="@Url.Action("Delete", "Posts", new { id = item.id })" style="display:inline;">
+                                        <button type="submit" class="action-btn delete" onclick="return confirm('Are you sure you want to delete this post?');">Delete</button>
+                                    </form>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="no-posts">
+                    No posts found
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .reddit-style {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        max-width: 1000px;
+        margin: 0 auto;
+        background-color: #f5f5f5;
+        padding: 20px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+        color: #ff4500;
+        font-weight: bold;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .btn-reddit {
+        background-color: #ff4500;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+        .btn-reddit:hover {
+            background-color: #ff5714;
+        }
+
+    .alert-reddit {
+        background-color: #fff8e6;
+        border-left: 4px solid #ff4500;
+        padding: 12px;
+        margin-bottom: 20px;
+        color: #222;
+    }
+
+    .sorting-options {
+        margin: 15px 0;
+        padding: 10px;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+        .sorting-options span {
+            margin-right: 10px;
+            color: #787c7e;
+            font-size: 14px;
+        }
+
+    .sort-btn {
+        margin-right: 15px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: #878a8c;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+        .sort-btn:hover {
+            background-color: #f6f7f8;
+        }
+
+        .sort-btn.active {
+            background-color: #f6f7f8;
+            color: #1a1a1b;
+        }
+
+    .create-post {
+        margin-bottom: 20px;
+    }
+
+    .btn-create-post {
+        background-color: #ff4500;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .posts-container {
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .post {
+        display: flex;
+        padding: 12px;
+        border-bottom: 1px solid #eee;
+    }
+
+        .post:hover {
+            background-color: #f9f9f9;
+        }
+
+    .vote {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 12px;
+        min-width: 40px;
+    }
+
+    .vote-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: #878a8c;
+        font-size: 16px;
+        padding: 0;
+    }
+
+        .vote-btn.upvoted {
+            color: #ff4500;
+        }
+
+        .vote-btn:hover {
+            color: #ff4500;
+        }
+
+    .score {
+        font-weight: bold;
+        font-size: 12px;
+        margin: 4px 0;
+    }
+
+    .post-content {
+        flex-grow: 1;
+    }
+
+    .post-header {
+        margin-bottom: 8px;
+    }
+
+    .post-title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: 8px;
+    }
+
+    .post-meta {
+        color: #787c7e;
+        font-size: 12px;
+    }
+
+    .post-body {
+        margin-bottom: 8px;
+        color: #222;
+        line-height: 1.4;
+    }
+
+    .post-actions {
+        display: flex;
+        gap: 12px;
+        font-size: 12px;
+        color: #787c7e;
+    }
+
+    .action-btn {
+        color: #878a8c;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        .action-btn:hover {
+            text-decoration: underline;
+        }
+
+        .action-btn.delete {
+            color: #ff4500;
+            background: none;
+            border: none;
+            padding: 0;
+            font-size: 12px;
+        }
+
+    .no-posts {
+        padding: 20px;
+        text-align: center;
+        color: #878a8c;
+    }
+</style>

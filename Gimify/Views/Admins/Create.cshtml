@@ -1,0 +1,29 @@
+﻿@model Gimify.Entities.Admin
+
+@{
+    ViewData["Title"] = "Додати адміністратора";
+}
+
+<h2>Додати нового адміністратора</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="AdminUsername">Ім’я адміністратора</label>
+        <input asp-for="AdminUsername" class="form-control" />
+        <span asp-validation-for="AdminUsername" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="AdminPassword">Пароль адміністратора</label>
+        <input asp-for="AdminPassword" type="password" class="form-control" />
+        <span asp-validation-for="AdminPassword" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role">Роль</label>
+        <input asp-for="Role" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Створити</button>
+    <a class="btn btn-secondary mt-3" href="/Admins">Назад</a>
+</form>

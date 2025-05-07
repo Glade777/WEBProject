@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "Posts": null,
+    "UserId": 1,
+    "Postsid": 8
+  },
+  {
+    "id": 2,
+    "Posts": null,
+    "UserId": 2,
+    "Postsid": 9
+  },
+  {
+    "id": 1,
+    "Posts": null,
+    "UserId": 1,
+    "Postsid": 1
+  }
+]
