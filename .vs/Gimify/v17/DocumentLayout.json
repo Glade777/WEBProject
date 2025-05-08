@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\VisualStudio\\csProj\\Gimify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\redisstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\redisstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\redisrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\redisrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\redisstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\redisstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\jsonstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,8 +55,32 @@
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\datamigrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\efcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\posts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\posts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\admins.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\admins.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\favourites.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\favourites.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\redisrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\redisrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\posts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,36 +91,12 @@
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\adminscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\exercise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\controllers\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\controllers\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\admins.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\admins.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\posts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\posts.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\favourites.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\favourites.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\data\\users.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\admins\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -107,20 +107,12 @@
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\exercise\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\account\\account.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\posts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -147,36 +139,12 @@
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\favouriteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\favouriteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\manconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\manconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\exercises.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\dal\\configurations\\exercisesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|solutionrelative:gimify\\dal\\configurations\\exercisesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E683738-EC8D-4A22-A0CA-FB94530537E6}|Gimify\\Gimify.csproj|d:\\visualstudio\\csproj\\gimify\\gimify\\views\\home\\masscalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -218,8 +186,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 11,
@@ -231,19 +203,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T05:18:39.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IDataStorage.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\IDataStorage.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\IDataStorage.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\IDataStorage.cs",
-              "RelativeToolTip": "Gimify\\Entities\\IDataStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:37:33.499Z",
               "EditorCaption": ""
             },
             {
@@ -261,119 +220,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PostController.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\PostController.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\PostController.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\PostController.cs",
-              "RelativeToolTip": "Gimify\\Entities\\PostController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IDataStorage.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\IDataStorage.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\IDataStorage.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\IDataStorage.cs",
+              "RelativeToolTip": "Gimify\\Entities\\IDataStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:25:40.459Z",
+              "WhenOpened": "2025-04-14T20:37:33.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Posts.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\Posts.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
-              "RelativeToolTip": "Gimify\\Entities\\Posts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:56:15.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostService.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\PostService.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\PostService.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\PostService.cs",
-              "RelativeToolTip": "Gimify\\Entities\\PostService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T02:37:26.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RedisStorage.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\RedisStorage.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\RedisStorage.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\RedisStorage.cs",
-              "RelativeToolTip": "Gimify\\Entities\\RedisStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:24:20.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Repository.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\Repository.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Repository.cs",
-              "RelativeToolTip": "Gimify\\Entities\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:20:33.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Gimify\\Entities\\User.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
-              "RelativeToolTip": "Gimify\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T05:08:53.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
-              "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Index.cshtml",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
-              "RelativeToolTip": "Gimify\\Views\\Posts\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T22:37:50.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
-              "RelativeDocumentMoniker": "Gimify\\Program.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
-              "RelativeToolTip": "Gimify\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:44:27.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RedisRepository.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\RedisRepository.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\RedisRepository.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\RedisRepository.cs",
-              "RelativeToolTip": "Gimify\\DAL\\RedisRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:16:37.104Z",
+              "DocumentIndex": 13,
+              "Title": "users.json",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\users.json",
+              "RelativeDocumentMoniker": "Gimify\\Data\\users.json",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\users.json",
+              "RelativeToolTip": "Gimify\\Data\\users.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T00:42:57.637Z",
               "EditorCaption": ""
             },
             {
@@ -391,85 +259,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Efcontext.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Efcontext.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\Efcontext.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Efcontext.cs",
-              "RelativeToolTip": "Gimify\\DAL\\Efcontext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\Posts.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Posts.cs",
+              "RelativeToolTip": "Gimify\\Entities\\Posts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T00:40:43.752Z",
+              "WhenOpened": "2025-02-24T00:56:15.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\PostService.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\PostService.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\PostService.cs",
+              "RelativeToolTip": "Gimify\\Entities\\PostService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T02:37:26.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "account.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\account.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Account\\account.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\account.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Account\\account.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T11:29:08.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T21:07:09.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Gimify\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Gimify\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAswIwAAAAIAAAAAAAAAA==",
+              "Title": "posts.json",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\posts.json",
+              "RelativeDocumentMoniker": "Gimify\\Data\\posts.json",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\posts.json",
+              "RelativeToolTip": "Gimify\\Data\\posts.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-03T00:42:55.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
+              "RelativeDocumentMoniker": "Gimify\\Program.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Program.cs",
+              "RelativeToolTip": "Gimify\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:30:45.292Z",
+              "WhenOpened": "2025-02-24T00:44:27.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-24T05:51:40.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RedisStorage.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\RedisStorage.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\RedisStorage.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\RedisStorage.cs",
+              "RelativeToolTip": "Gimify\\Entities\\RedisStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:24:20.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Gimify\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Gimify\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:46:26.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "AdminsController.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AdminsController.cs",
-              "RelativeDocumentMoniker": "Gimify\\Controllers\\AdminsController.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AdminsController.cs",
-              "RelativeToolTip": "Gimify\\Controllers\\AdminsController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowGIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:44:10.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Exercise.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Exercise.cs",
-              "RelativeDocumentMoniker": "Gimify\\Controllers\\Exercise.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Exercise.cs",
-              "RelativeToolTip": "Gimify\\Controllers\\Exercise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:04:12.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Gimify\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Gimify\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T19:33:14.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Posts.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
-              "RelativeDocumentMoniker": "Gimify\\Controllers\\Posts.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
-              "RelativeToolTip": "Gimify\\Controllers\\Posts.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAA/wKcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T22:49:51.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "admins.json",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\admins.json",
               "RelativeDocumentMoniker": "Gimify\\Data\\admins.json",
@@ -482,15 +389,114 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "users.json",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Data\\users.json",
-              "RelativeDocumentMoniker": "Gimify\\Views\\Data\\users.json",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Data\\users.json",
-              "RelativeToolTip": "Gimify\\Views\\Data\\users.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "favourites.json",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\favourites.json",
+              "RelativeDocumentMoniker": "Gimify\\Data\\favourites.json",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\favourites.json",
+              "RelativeToolTip": "Gimify\\Data\\favourites.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-14T21:36:52.494Z"
+              "WhenOpened": "2025-05-03T00:42:51.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Repository.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\Repository.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\Repository.cs",
+              "RelativeToolTip": "Gimify\\Entities\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T00:20:33.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RedisRepository.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\RedisRepository.cs",
+              "RelativeDocumentMoniker": "Gimify\\DAL\\RedisRepository.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\RedisRepository.cs",
+              "RelativeToolTip": "Gimify\\DAL\\RedisRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:16:37.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Index.cshtml",
+              "RelativeToolTip": "Gimify\\Views\\Posts\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T22:37:50.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Gimify\\Entities\\User.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Entities\\User.cs",
+              "RelativeToolTip": "Gimify\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T05:08:53.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Gimify\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Gimify\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswIwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T00:30:45.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminsController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AdminsController.cs",
+              "RelativeDocumentMoniker": "Gimify\\Controllers\\AdminsController.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\AdminsController.cs",
+              "RelativeToolTip": "Gimify\\Controllers\\AdminsController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowGIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:44:10.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Gimify\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Gimify\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:33:14.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Posts.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
+              "RelativeDocumentMoniker": "Gimify\\Controllers\\Posts.cs",
+              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Controllers\\Posts.cs",
+              "RelativeToolTip": "Gimify\\Controllers\\Posts.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAA/wKcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T22:49:51.943Z"
             },
             {
               "$type": "Document",
@@ -506,18 +512,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "users.json",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\users.json",
-              "RelativeDocumentMoniker": "Gimify\\Data\\users.json",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\users.json",
-              "RelativeToolTip": "Gimify\\Data\\users.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T00:42:57.637Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.json",
@@ -530,43 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "favourites.json",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\favourites.json",
-              "RelativeDocumentMoniker": "Gimify\\Data\\favourites.json",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\favourites.json",
-              "RelativeToolTip": "Gimify\\Data\\favourites.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T00:42:51.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "posts.json",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\posts.json",
-              "RelativeDocumentMoniker": "Gimify\\Data\\posts.json",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Data\\posts.json",
-              "RelativeToolTip": "Gimify\\Data\\posts.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-03T00:42:55.392Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Gimify\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Gimify\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T21:07:09.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Account\\Register.cshtml",
@@ -578,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Exercise\\Index.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Exercise\\Index.cshtml",
@@ -590,19 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "account.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\account.cshtml",
-              "RelativeDocumentMoniker": "Gimify\\Views\\Account\\account.cshtml",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Account\\account.cshtml",
-              "RelativeToolTip": "Gimify\\Views\\Account\\account.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T11:29:08.459Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 28,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Edit.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Edit.cshtml",
@@ -614,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Create.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Create.cshtml",
@@ -626,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 30,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\Details.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\Details.cshtml",
@@ -638,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 31,
               "Title": "FavouritePosts.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Posts\\FavouritePosts.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Posts\\FavouritePosts.cshtml",
@@ -650,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Admins\\Create.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Admins\\Create.cshtml",
@@ -662,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "Exercises.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Exercises.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Exercises.cshtml",
@@ -674,55 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PostConfiguration.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\PostConfiguration.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\PostConfiguration.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\PostConfiguration.cs",
-              "RelativeToolTip": "Gimify\\DAL\\Configurations\\PostConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:15:49.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "Gimify\\DAL\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T05:09:45.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Gimify\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAIBZwDcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T05:51:40.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "FavouriteConfiguration.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
-              "RelativeToolTip": "Gimify\\DAL\\Configurations\\FavouriteConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T05:21:17.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 34,
               "Title": "Exercises.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Exercises.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Exercises.cshtml",
@@ -734,19 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ManConfiguration.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ManConfiguration.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\ManConfiguration.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ManConfiguration.cs",
-              "RelativeToolTip": "Gimify\\DAL\\Configurations\\ManConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T00:31:17.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Gimify\\Views\\Shared\\_Layout.cshtml.css",
@@ -758,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 40,
               "Title": "bootstrap.css",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "Gimify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -770,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 37,
               "Title": "site.js",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Gimify\\wwwroot\\js\\site.js",
@@ -782,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 42,
               "Title": "site.css",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "Gimify\\wwwroot\\css\\site.css",
@@ -795,18 +681,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 43,
-              "Title": "ExercisesConfiguration.cs",
-              "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
-              "RelativeDocumentMoniker": "Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
-              "ToolTip": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
-              "RelativeToolTip": "Gimify\\DAL\\Configurations\\ExercisesConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T12:37:01.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Gimify\\appsettings.Development.json",
@@ -818,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 39,
               "Title": "Gimify.csproj",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Gimify.csproj",
               "RelativeDocumentMoniker": "Gimify\\Gimify.csproj",
@@ -830,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 36,
               "Title": "MassCalculator.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\MassCalculator.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Home\\MassCalculator.cshtml",
@@ -842,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\Home\\Index.cshtml",
@@ -854,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 38,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\csProj\\Gimify\\Gimify\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Gimify\\Views\\_ViewStart.cshtml",

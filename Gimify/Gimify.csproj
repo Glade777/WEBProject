@@ -24,9 +24,4 @@
     <PackageReference Include="StackExchange.Redis" Version="2.8.31" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Service\" />
-    <Folder Include="Views\Data\" />
-  </ItemGroup>
-
 </Project>
